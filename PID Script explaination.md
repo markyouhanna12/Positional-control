@@ -2,11 +2,6 @@
 
 This script is a Python-based PID controller for the TurtleBot3, written for the ROS (Robot Operating System) environment. The controller uses PID (Proportional-Integral-Derivative) feedback loops to control both the linear and angular velocities of the TurtleBot3, allowing it to move towards a specific goal position and adjust its orientation.
 
-## Prerequisites
-
-- Python 3
-- ROS (Robot Operating System) installed
-- TurtleBot3 simulation or actual TurtleBot3 hardware
 
 ## Script Breakdown
 
