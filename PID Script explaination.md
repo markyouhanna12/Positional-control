@@ -77,5 +77,5 @@ The `rospy.ROSInterruptException` is used to handle any interruptions in the ROS
 To use this script, run it in a ROS environment with a TurtleBot3:
 
 ```bash
-python3 pid_controller.py
+rosrun pid_control pid_turtlebot.py
 
