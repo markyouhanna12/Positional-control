@@ -136,7 +136,7 @@ Install TurtleBot3 Packages:
 5.3 We will open vs code and choose the folder **scripts** of the **pid_control** and make  a python file in it and named it (**pid_turtlebot**)
 
 **the python script of the PID controller:**
-```
+```python
 #!/usr/bin/env python3
 
 import rospy
