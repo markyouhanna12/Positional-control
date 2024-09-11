@@ -306,13 +306,13 @@ if __name__ == '__main__':
 
 `$ chmod +x scripts/pid_turtlebot.py`
 
-5.4 Build the Package
+5.5 Build the Package
 
 `$ cd ~/catkin_ws`
 
 `$ catkin_make`
 
-5.5 Run the Node
+5.6 Run the Node
 
 `$ source devel/setup.bash`
 
