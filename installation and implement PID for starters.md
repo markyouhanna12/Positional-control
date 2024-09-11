@@ -118,19 +118,22 @@ Install TurtleBot3 Packages:
 
 `$ roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch`
 
-5. Create a new package in the workspace named (**pid_control**)
+### 5. Implement the PID Controller
+
+
+5.1 Create a new package in the workspace named (**pid_control**)
 
 `$ cd ~/catkin_ws/`
 
 `$ catkin_create_pkg pid_control rospy std_msgs sensor_msgs`
 
-5. Create a scripts directory inside the package directory and place the Python script there:
+5.2 Create a scripts directory inside the package directory and place the Python script there:
 
 `$ cd ~/catkin_ws/src/pid_control`
 
 `$ mkdir scripts`
 
-6. We will open vs code and choose the folder **scripts** of the **pid_control** and make  a python file in it and named it (**pid_turtlebot**)
+5.3 We will open vs code and choose the folder **scripts** of the **pid_control** and make  a python file in it and named it (**pid_turtlebot**)
 
 **the python script of the PID controller:**
 ```
@@ -299,17 +302,17 @@ if __name__ == '__main__':
     except rospy.ROSInterruptException:
         pass
 ```
-7. Make the script executable
+5.4 Make the script executable
 
 `$ chmod +x scripts/pid_turtlebot.py`
 
-8. Build the Package
+5.4 Build the Package
 
 `$ cd ~/catkin_ws`
 
 `$ catkin_make`
 
-9. Run the Node
+5.5 Run the Node
 
 `$ source devel/setup.bash`
 
